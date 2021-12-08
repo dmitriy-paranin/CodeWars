@@ -5,7 +5,7 @@ repeatStr(6, "I") // "IIIIII"
 repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 */
 
-//My solution
+//My solution 1
 
 function repeatStr (n, s) {
   let a = '';
@@ -14,3 +14,7 @@ function repeatStr (n, s) {
   } 
   return a;
 }
+
+//My solution 2
+
+repeatStr = (n, s) => s.repeat(n)
